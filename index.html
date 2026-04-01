@@ -7572,13 +7572,21 @@ document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 new IntersectionObserver(([e]) => document.getElementById('sbar').classList.toggle('show',!e.isIntersecting),{threshold:.05}).observe(document.querySelector('.hero'));
 
 // Testimonial carousel
-let tmIdx=0;
-const tmImgs=document.querySelectorAll('.tm-slides img');
-const tmDots=document.querySelectorAll('.tm-dots .dot');
-tmImgs[0].classList.add('active');
-function tmGo(n){tmImgs[tmIdx].classList.remove('active');tmDots[tmIdx].classList.remove('on');tmIdx=n;tmImgs[tmIdx].classList.add('active');tmDots[tmIdx].classList.add('on');}
-setInterval(()=>tmGo((tmIdx+1)%tmImgs.length),4000);
-document.querySelectorAll('[data-target]').forEach(el=>cu.observe(el));
+const tmImgs = document.querySelectorAll('.tm-slides img');
+const tmDots = document.querySelectorAll('.tm-dots .dot');
+let tmIdx = 0;
+if(tmImgs.length > 0){
+  tmImgs[0].classList.add('active');
+  tmDots[0].classList.add('on');
+}
+function tmGo(n){
+  tmImgs[tmIdx].classList.remove('active');
+  tmDots[tmIdx].classList.remove('on');
+  tmIdx = n;
+  tmImgs[tmIdx].classList.add('active');
+  tmDots[tmIdx].classList.add('on');
+}
+if(tmImgs.length > 0) setInterval(()=>tmGo((tmIdx+1)%tmImgs.length),4000);
 
 // Animated stat counters
 const cu = new IntersectionObserver(entries => {
