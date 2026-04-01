@@ -59,8 +59,8 @@ h4{font-weight:700}
 .hero-bg-overlay{position:absolute;inset:0;background:rgba(0,0,0,.55);z-index:1}
 /* swap .hero-bg for an <img class="hero-bg-img"> when you have a photo */
 .hero-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
-.hero .W{position:relative;z-index:2;display:grid;grid-template-columns:1fr 500px;gap:48px;align-items:center;padding-top:20px;padding-bottom:60px}
-.hero-text{color:var(--wh)}
+.hero .W{position:relative;z-index:2;display:grid;grid-template-columns:1fr minmax(0,500px);gap:48px;align-items:center;padding-top:20px;padding-bottom:60px}
+.hero-text{color:var(--wh);min-width:0}
 .hero-ey{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.6);font-weight:500;margin-bottom:12px}
 .hero h1{font-size:clamp(52px,6vw,88px);margin:0 0 20px;line-height:.95;color:var(--wh)}
 .hero h1 span{color:#b388ff}
@@ -7297,7 +7297,6 @@ Z10+AKJkTnJFIUDtkHrQoUBnkbP4AoYxNLs3Cl5ChyTQoUMkdS8GXLi2UpPEVN8TNIVYrkcChQqUexYy
 
     <div class="hero-form-card reveal" style="transition-delay:.15s">
       <div class="klaviyo-form-WZzpyG"></div>
-      <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WbCUCr"></script>
     </div>
   </div>
 </section>
