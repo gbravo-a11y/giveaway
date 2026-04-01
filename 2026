@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQDWZ3F');</script>
+<!-- End Google Tag Manager -->
+<!-- Clarity -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "w1wvvcecb8");
+</script>
+<!-- End Clarity -->
+<script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/WbCUCr/klaviyo.js?company_id=WbCUCr'></script>
+<script type="text/javascript">
+!function(){if(!window.klaviyo){window._klOnsite=window._klOnsite||[];try{window.klaviyo=new Proxy({},{get:function(n,i){return"push"===i?function(){var n;(n=window._klOnsite).push.apply(n,arguments)}:function(){for(var n=arguments.length,o=new Array(n),w=0;w<n;w++)o[w]=arguments[w];var t="function"==typeof o[o.length-1]?o.pop():void 0,e=new Promise((function(n){window._klOnsite.push([i].concat(o,[function(i){t&&t(i),n(i)}]))}));return e}}})}catch(n){window.klaviyo=window.klaviyo||[],window.klaviyo.push=function(){var n;(n=window._klOnsite).push.apply(n,arguments)}}}}();
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Win 2 Tickets — The AI Conference 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--pu:#6B3FA0;--wh:#fff;--bg:#EEEDF3;--bg2:#E6E4EF;--dk:#111;--gr:#505050;--bd:#d8d7df}
+body{font-family:'DM Sans',sans-serif;color:var(--dk);font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:'Bebas Neue',sans-serif;text-transform:uppercase;line-height:1;letter-spacing:1.5px}
+h4{font-weight:700}
+.W{max-width:1280px;margin:0 auto;padding:0 5%}
+.tag{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--pu);color:var(--pu);font-size:10px;letter-spacing:2.5px;padding:6px 13px;text-transform:uppercase;font-weight:500;margin-bottom:18px}.tag::before{content:'•'}
+.btn-o{background:none;border:2px solid var(--dk);color:var(--dk);padding:14px 28px;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;cursor:pointer;font-family:inherit;transition:.2s}.btn-o:hover{background:var(--dk);color:var(--wh)}
+.hero-btns{display:flex;gap:14px;margin-top:24px;flex-wrap:wrap}
+.btn-p{background:var(--pu);color:var(--wh);border:2px solid var(--pu);padding:14px 28px;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;cursor:pointer;font-family:'DM Sans',sans-serif;transition:opacity .2s}.btn-p:hover{opacity:.82}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .5s ease,transform .5s ease}.reveal.in{opacity:1;transform:none}
+
+/* STICKY */
+.sticky{position:fixed;bottom:0;left:0;right:0;background:var(--wh);border-top:1px solid var(--bd);padding:13px 5%;display:flex;align-items:center;justify-content:space-between;gap:16px;z-index:200;transform:translateY(100%);transition:transform .3s ease}.sticky.show{transform:translateY(0)}
+.sticky p{color:var(--gr);font-size:13px;font-weight:500}.sticky strong{color:var(--dk)}
+.btn-sw{background:var(--pu);color:var(--wh);border:2px solid var(--pu);padding:10px 22px;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;flex-shrink:0;transition:.2s}.btn-sw:hover{opacity:.82}
+
+/* COUNTDOWN */
+.countdown-bar{position:sticky;top:0;z-index:199;background:var(--dk);padding:12px 5%;text-align:center;display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap}
+.countdown-label{color:rgba(255,255,255,.6);font-size:10px;letter-spacing:2.5px;text-transform:uppercase;font-weight:500}
+.countdown-units{display:flex;gap:16px;align-items:center}
+.cu{display:flex;flex-direction:column;align-items:center;gap:3px}
+.cu-n{font-family:'Bebas Neue',sans-serif;font-size:32px;color:var(--wh);line-height:1;letter-spacing:2px;min-width:40px;text-align:center}
+.cu-l{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.45);font-weight:500}
+.cu-sep{font-family:'Bebas Neue',sans-serif;font-size:28px;color:rgba(255,255,255,.3);line-height:1;padding-bottom:12px}
+
+/* HERO */
+.hero{background:var(--wh);padding:60px 0 0 0}
+.hero .W{display:grid;grid-template-columns:55fr 45fr;gap:0;align-items:stretch}
+.hero-text{padding-right:60px;padding-bottom:60px}
+.hero-ey{font-size:clamp(18px,2.2vw,26px);font-family:'Bebas Neue',sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:var(--pu);margin-bottom:4px;line-height:1}
+.hero h1{font-size:clamp(56px,7vw,96px);margin:0 0 16px;line-height:.95}
+.hero h1 span{color:var(--pu)}
+.hero p{color:var(--gr);line-height:1.75;font-size:15px;margin-bottom:14px}
+.hero p:last-of-type{margin-bottom:0}
+.prize-box{background:var(--bg);border:1px solid var(--bd);padding:24px 28px;margin:24px 0 28px}
+.prize-box-t{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;color:#aaa;margin-bottom:16px}
+.prize-list{list-style:none}
+.prize-list li{padding:10px 0;border-bottom:1px solid var(--bd);font-size:13px;font-weight:500;display:flex;align-items:center;gap:12px;letter-spacing:.3px}
+.prize-list li:last-child{border-bottom:none}
+.prize-list li::before{content:'✦';color:var(--pu);font-size:11px;flex-shrink:0}
+.hero-img-wrap{position:relative;overflow:hidden}
+.hero-img{width:100%;height:100%;object-fit:cover;display:block;min-height:480px;background:#c4c3cc}
+.hero-img-ph{width:100%;height:100%;min-height:480px;background:linear-gradient(135deg,#1a0d2e 0%,#3a1f6b 50%,#1a0d2e 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+.hero-img-ph-label{color:rgba(255,255,255,.4);font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:500}
+.hero-img-ph-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,4vw,54px);color:rgba(255,255,255,.15);text-align:center;letter-spacing:2px;line-height:1.1;padding:0 20px;text-transform:uppercase}
+
+/* FORM SECTION */
+.form-section{background:var(--pu);padding:64px 5%}
+.form-section .W{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.form-left h2{font-size:clamp(38px,5vw,66px);color:var(--wh);margin:14px 0 16px}
+.form-left p{color:rgba(255,255,255,.75);font-size:14px;line-height:1.75}
+.form-box{background:var(--wh);padding:36px;border-radius:2px}
+.form-box-t{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;margin-bottom:24px;color:#aaa}
+.disclaimer{font-size:11px;color:rgba(255,255,255,.5);margin-top:20px;line-height:1.6;font-style:italic}
+
+/* STATS */
+.stats{background:var(--bg);padding:40px 0}
+.stats-inner{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--bd)}
+.stat{padding:36px 40px;border-right:1px solid var(--bd)}.stat:last-child{border-right:none}
+.stat-n{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,5vw,64px);color:var(--pu);line-height:1;letter-spacing:1px;margin-bottom:8px}
+.stat-l{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gr);font-weight:500}
+
+/* COMPARE */
+.compare{background:var(--bg);padding:80px 5%}
+.compare h2{font-size:clamp(38px,5vw,66px);margin:0 0 44px;max-width:820px}
+.cg{border:1px solid var(--bd);background:var(--wh)}
+.cg-head{display:grid;grid-template-columns:1fr 1fr}
+.ch{padding:16px 26px;font-size:10px;letter-spacing:2px;font-weight:700;text-transform:uppercase;border-bottom:1px solid var(--bd);background:var(--bg)}.ch.dark{background:var(--dk);color:var(--wh)}.ch:first-child{border-right:1px solid var(--bd)}
+.crow{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--bd)}.crow:last-child{border-bottom:none}
+.cc{padding:18px 26px;font-size:13px;line-height:1.7}.cc:first-child{border-right:1px solid var(--bd)}
+.cat{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;color:#aaa;margin-bottom:8px;font-weight:500}
+.cc ul{list-style:none}.cc ul li{padding-left:14px;position:relative;line-height:1.6}
+.cc:first-child ul li::before{content:'-';position:absolute;left:0;color:var(--pu);font-weight:700}
+.cc:last-child ul li::before{content:'—';position:absolute;left:0;color:#bbb;font-size:11px}
+.cg-extra{overflow:hidden;max-height:0;transition:max-height .45s ease}.cg-extra.open{max-height:1400px}
+.cg-toggle{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;padding:14px;background:var(--wh);border:none;border-top:1px solid var(--bd);cursor:pointer;font-family:inherit;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--pu);transition:background .2s}.cg-toggle:hover{background:var(--bg)}
+.cg-toggle svg{transition:transform .3s}.cg-toggle.open svg{transform:rotate(180deg)}
+
+/* BRIDGE */
+.bridge{background:var(--wh);padding:80px 5%}
+.bridge-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-bottom:32px}
+.bridge h2{font-size:clamp(52px,6.5vw,96px);margin:14px 0 22px}
+.bridge p{color:var(--gr);line-height:1.75;font-size:15px}
+.quad{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--bd)}
+.qi{padding:26px;font-size:12px;letter-spacing:.5px;font-weight:700;line-height:1.4;border-bottom:1px solid var(--bd);border-right:1px solid var(--bd);text-transform:uppercase;transition:background .2s}.qi:hover{background:var(--bg)}
+.qi:nth-child(2),.qi:nth-child(4){border-right:none}.qi:nth-child(3),.qi:nth-child(4){border-bottom:none}
+.qi-n{color:var(--pu);font-size:10px;letter-spacing:1.5px;margin-bottom:10px;font-weight:400;display:block}
+.bridge-note{background:var(--bg);border:1px solid var(--bd);padding:20px 26px;font-size:14px;line-height:1.65;font-style:italic}
+
+/* TESTIMONIAL */
+.testimonial{background:var(--wh);padding:80px 5%}
+.testimonial h2{font-size:clamp(38px,4.5vw,62px);margin:14px 0 40px}
+.photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:0}
+
+/* EXTRAS */
+.extras{background:var(--wh);padding:80px 5%}
+.extras-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.ec{border:1px solid var(--bd);padding:36px}
+.ec-tag{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;color:#aaa;margin-bottom:14px;font-weight:500}
+.ec h3{font-size:clamp(22px,2.5vw,30px);margin-bottom:16px}
+.ec p{font-size:13px;color:var(--gr);line-height:1.75}.ec p+p{margin-top:12px}
+
+/* WHAT YOU GET */
+.wyg{background:var(--wh);padding:80px 5%}
+.wyg h2{font-size:clamp(42px,5vw,70px);margin:0 0 44px;max-width:820px}
+.wyg-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--bd);background:var(--bd);gap:1px}
+.wc{padding:32px;background:var(--wh)}
+.wc.accent{background:var(--bg2)}
+.wc-tag{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;color:#aaa;margin-bottom:14px;font-weight:500}
+.wc h3{font-size:26px;margin-bottom:16px;letter-spacing:.5px}
+.wc>p{font-size:13px;color:var(--gr);line-height:1.7;margin-bottom:16px}
+.arrow-list{list-style:none}
+.arrow-list li{padding:8px 0;border-top:1px solid var(--bd);display:flex;gap:10px;font-size:13px;color:var(--gr);line-height:1.5}
+.arrow-list li::before{content:'→';color:var(--pu);flex-shrink:0;font-size:12px;margin-top:1px}
+.track-list{border:1px solid var(--bd)}
+.track{padding:13px 16px;border-bottom:1px solid var(--bd)}.track:last-child{border-bottom:none}
+.track-name{font-weight:700;text-transform:uppercase;letter-spacing:.8px;font-size:10px;margin-bottom:4px}
+.track-desc{color:var(--gr);font-size:12px;line-height:1.55}
+
+/* WHO ATTENDS */
+.audience{background:var(--bg);padding:80px 5%}
+.audience .W{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.audience h2{font-size:clamp(40px,4.8vw,68px);margin:14px 0 0}
+.aud-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--bd);border:1px solid var(--bd)}
+.aud-item{background:var(--wh);padding:24px;transition:background .2s}.aud-item:hover{background:#faf9ff}
+.aud-item h4{font-size:14px;margin-bottom:6px;line-height:1.3}
+.aud-item p{font-size:12px;color:var(--gr);line-height:1.6}
+
+/* MID CTA */
+.mid-cta{background:var(--pu);padding:52px 5%;text-align:center}
+.mid-cta h3{font-size:clamp(32px,4vw,52px);color:var(--wh);margin-bottom:12px;letter-spacing:2px}
+.mid-cta p{color:rgba(255,255,255,.8);font-size:14px;margin-bottom:24px;font-weight:400}
+.mid-cta .btn-p{background:#fff;color:var(--pu);border:none}
+
+/* BOTTOM CTA */
+.cta{background:var(--bg2);padding:80px 5%}
+.cta .W{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.cta h2{font-size:clamp(40px,5vw,72px);margin:14px 0 16px}
+.cta-sub{font-size:14px;color:var(--gr);line-height:1.75}
+.cta-box{background:var(--wh);border:1px solid var(--bd);padding:36px}
+.cta-box-t{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;margin-bottom:20px;color:#aaa}
+.feat-list{list-style:none;margin-bottom:28px}
+.feat-list li{padding:12px 0;border-bottom:1px solid var(--bd);font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;display:flex;align-items:center;gap:12px}
+.feat-list li::before{content:'•';color:var(--pu);font-size:15px;line-height:1}
+.feat-list li:last-child{border-bottom:none}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .stats-inner{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:none}
+  .stat:nth-child(3){border-right:1px solid var(--bd);border-top:1px solid var(--bd)}
+  .stat:nth-child(4){border-top:1px solid var(--bd);border-right:none}
+  .wyg-grid{grid-template-columns:1fr}
+}
+@media(max-width:860px){
+  .hero .W,.form-section .W,.audience .W,.cta .W,.bridge-grid{grid-template-columns:1fr}
+  .hero-img-ph{min-height:280px;order:-1}
+  .hero-text{padding-right:0}
+  .countdown-units{gap:10px}
+  .cu-n{font-size:26px}
+  .photo-pair,.extras-grid{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .aud-grid{grid-template-columns:1fr}
+  .quad{grid-template-columns:1fr}.qi{border-right:none!important}
+  .stats-inner{grid-template-columns:1fr 1fr}
+  .stat:nth-child(odd){border-right:1px solid var(--bd)}
+  .stat:nth-child(3),.stat:nth-child(4){border-top:1px solid var(--bd)}
+  .sticky p{font-size:11px}
+  .countdown-bar{gap:12px}
+  .hero-btns{flex-direction:column}.btn-p,.btn-o{text-align:center}
+  .cc{padding:12px 14px;font-size:11px}
+  .ch{padding:10px 14px;font-size:8px}
+  .cat{font-size:7px;letter-spacing:1.5px}
+}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQDWZ3F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- STICKY BAR -->
+<div class="sticky" id="sbar">
+  <p><strong>The AI Conference 2026</strong> — San Francisco · Sep 29–Oct 1 · 120+ Speakers</p>
+  <button class="btn-sw" onclick="document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'})">Enter To Win</button>
+</div>
+
+<!-- COUNTDOWN BAR -->
+<div class="countdown-bar">
+  <span class="countdown-label">Giveaway ends in</span>
+  <div class="countdown-units">
+    <div class="cu"><span class="cu-n" id="cd-days">--</span><span class="cu-l">Days</span></div>
+    <span class="cu-sep">:</span>
+    <div class="cu"><span class="cu-n" id="cd-hours">--</span><span class="cu-l">Hours</span></div>
+    <span class="cu-sep">:</span>
+    <div class="cu"><span class="cu-n" id="cd-mins">--</span><span class="cu-l">Mins</span></div>
+    <span class="cu-sep">:</span>
+    <div class="cu"><span class="cu-n" id="cd-secs">--</span><span class="cu-l">Secs</span></div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="W">
+    <div class="hero-text reveal">
+      <p class="hero-ey">📍 San Francisco  |  September 29 – October 1, 2026</p>
+      <h1>Win A Pair Of Tickets To <span>The AI Conference</span></h1>
+      <p>5,500 builders, researchers, and leaders. Two days. Five tracks. One of the most important gatherings in AI — and we're giving away two tickets.</p>
+      <p>Enter for a chance to join hundreds of engineers, founders, and AI leaders for two days of deep technical sessions and community you won't find anywhere else.</p>
+
+      <div class="prize-box">
+        <div class="prize-box-t">What You Win</div>
+        <ul class="prize-list">
+          <li>Two full-access conference passes (valued at $4,050+)</li>
+          <li>Access to all five conference tracks</li>
+          <li>Startup Showcase &amp; Networking Events</li>
+          <li>120+ Speakers across 2 days</li>
+        </ul>
+      </div>
+
+      <div class="hero-btns">
+        <button class="btn-p" onclick="document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'})">Enter the Giveaway</button>
+        <button class="btn-o" onclick="document.querySelector('.compare').scrollIntoView({behavior:'smooth'})">Why The AI Conference?</button>
+      </div>
+    </div>
+
+    <!-- Hero image: swap src with actual conference photo -->
+    <div class="hero-img-ph reveal" style="transition-delay:.1s">
+      <span class="hero-img-ph-label">The AI Conference 2026</span>
+      <span class="hero-img-ph-title">San Francisco<br>Sep 29 – Oct 1</span>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="W">
+    <div class="stats-inner reveal">
+      <div class="stat">
+        <div class="stat-n" data-target="5500" data-suffix="+">5500+</div>
+        <div class="stat-l">Attendees</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n" data-target="120" data-suffix="+">120+</div>
+        <div class="stat-l">Speakers</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">5</div>
+        <div class="stat-l">Conference Tracks</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">3</div>
+        <div class="stat-l">Days</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="compare">
+  <div class="W">
+    <div class="reveal">
+      <span class="tag">The AI Conference vs. Other AI Conferences</span>
+      <h2>Why Attend The AI Conference?</h2>
+    </div>
+    <div class="cg reveal" style="transition-delay:.1s">
+      <div class="cg-head">
+        <div class="ch dark">The AI Conference</div>
+        <div class="ch">Other AI Conferences</div>
+      </div>
+      <div class="crow">
+        <div class="cc"><div class="cat">Audience Focus</div><ul><li>AI researchers, engineers, founders, product leaders, and executives building AI systems</li></ul></div>
+        <div class="cc"><div class="cat">Audience Focus</div><ul><li>Often focused mainly on enterprise buyers or vendor ecosystems</li></ul></div>
+      </div>
+      <div class="crow">
+        <div class="cc"><div class="cat">Topic Coverage</div><ul><li>Full-spectrum AI: LLMs, frontier research, infrastructure, startups, applications, governance, and deployment</li></ul></div>
+        <div class="cc"><div class="cat">Topic Coverage</div><ul><li>Many conferences focus only on industry adoption or a single AI trend</li></ul></div>
+      </div>
+      <div class="crow">
+        <div class="cc"><div class="cat">Hands-On Learning</div><ul><li>Day ZER0 workshops and AI Hack Day designed for practical experimentation</li></ul></div>
+        <div class="cc"><div class="cat">Hands-On Learning</div><ul><li>Many events emphasize panels and talks with fewer build-focused sessions</li></ul></div>
+      </div>
+      <div class="crow">
+        <div class="cc"><div class="cat">Speaker Expertise</div><ul><li>Researchers and engineers building frontier AI systems alongside industry leaders</li></ul></div>
+        <div class="cc"><div class="cat">Speaker Expertise</div><ul><li>Speaker lineups often skew toward enterprise executives or vendor presentations</li></ul></div>
+      </div>
+      <div class="cg-extra" id="cmp-extra">
+        <div class="crow">
+          <div class="cc"><div class="cat">Conference Structure</div><ul><li>Two-day conference with five tracks, 120+ speakers, keynotes, Startup Showdown, and the Innovation Hub</li></ul></div>
+          <div class="cc"><div class="cat">Conference Structure</div><ul><li>Typically a standard keynote and breakout session format</li></ul></div>
+        </div>
+        <div class="crow">
+          <div class="cc"><div class="cat">Networking Experience</div><ul><li>Curated events including a VIP reception and community gatherings, plus smaller workshop cohorts</li></ul></div>
+          <div class="cc"><div class="cat">Networking Experience</div><ul><li>Networking typically centered around large-scale meetups or expo floors</li></ul></div>
+        </div>
+        <div class="crow" style="border-bottom:none">
+          <div class="cc"><div class="cat">Conference Size</div><ul><li>Large enough for diverse perspectives (~5,500 attendees) while still allowing meaningful conversations</li></ul></div>
+          <div class="cc"><div class="cat">Conference Size</div><ul><li>Some conferences are very large expos where networking becomes less focused</li></ul></div>
+        </div>
+      </div>
+      <button class="cg-toggle" id="cmp-btn" style="color:white;background-color:black;" onclick="var e=document.getElementById('cmp-extra'),o=e.classList.toggle('open');this.classList.toggle('open',o);this.querySelector('span').textContent=o?'Show Less':'More Info'">
+        <span>More Info</span>
+        <svg width="13" height="13" viewBox="0 0 14 14" fill="none"><path d="M2 4.5L7 9.5L12 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- BRIDGE -->
+<section class="bridge">
+  <div class="W reveal">
+    <span class="tag">What Makes The AI Conference Different</span>
+    <div class="bridge-grid">
+      <div>
+        <h2>Bridge The Gap</h2>
+        <p>Most AI conferences fall into two categories: <strong>large industry expos</strong> focused on enterprise adoption, or <strong>highly specialized events</strong> focused on a single AI topic. The AI Conference brings together the full ecosystem of AI in one place.</p>
+      </div>
+      <div class="quad">
+        <div class="qi"><span class="qi-n">01</span>Researchers Advancing The Frontier</div>
+        <div class="qi"><span class="qi-n">02</span>Engineers Building Real Systems</div>
+        <div class="qi"><span class="qi-n">03</span>Startups Launching New Products</div>
+        <div class="qi"><span class="qi-n">04</span>Executives Deploying AI In Organizations</div>
+      </div>
+    </div>
+    <div class="bridge-note"><strong>The result is a conference designed around how AI actually gets built and deployed.</strong></div>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="form-section" id="form-anchor">
+  <div class="W">
+    <div class="form-left reveal">
+      <span class="tag" style="border-color:rgba(255,255,255,.3);color:rgba(255,255,255,.7)">Giveaway</span>
+      <h2>Enter To Win Two Tickets</h2>
+      <p>Submit your information below for a chance to win two full-access passes to The AI Conference 2026 in San Francisco. One winner will be selected and notified by email.</p>
+      <p style="margin-top:16px">You'll also receive occasional updates about the conference — speakers, agenda, and early-bird offers. Unsubscribe anytime.</p>
+      <p class="disclaimer">No purchase necessary. One entry per person. Winner selected at random and notified via email. Tickets are non-transferable and non-refundable. Giveaway closes when the countdown reaches zero.</p>
+    </div>
+
+    <div class="form-box reveal" style="transition-delay:.12s">
+      <div class="form-box-t">Your Entry</div>
+      <div class="klaviyo-form-WZzpyG"></div>
+      <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WbCUCr"></script>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="wyg">
+  <div class="W">
+    <div class="reveal">
+      <span class="tag">What's Included</span>
+      <h2>Three Days Of Technical Depth, Hands-On Learning, And Community</h2>
+    </div>
+    <div class="wyg-grid reveal" style="transition-delay:.1s">
+      <div class="wc">
+        <div class="wc-tag">Day Zero</div>
+        <h3>A High-Signal Kickoff For Builders</h3>
+        <p>A <strong>limited-capacity pre-conference capped at 300 participants</strong>, designed for deeper technical learning before the main event begins.</p>
+        <ul class="arrow-list">
+          <li>Hands-on technical and leadership workshops with partners like Google Cloud</li>
+          <li>A live AI Hack Day — builders race to ship working apps in a single day</li>
+          <li>Collaborate with engineers, founders, and product leaders in smaller cohorts</li>
+        </ul>
+      </div>
+      <div class="wc accent">
+        <div class="wc-tag">5 Curated Tracks</div>
+        <h3>Covering The Full AI Stack</h3>
+        <div class="track-list">
+          <div class="track"><div class="track-name">AI Frontiers</div><div class="track-desc">Frontier research, multimodal systems, governance, ethics, and emerging model directions.</div></div>
+          <div class="track"><div class="track-name">AI Builders</div><div class="track-desc">Agentic systems, toolchains, retrieval, fine-tuning, and product-grade implementation patterns.</div></div>
+          <div class="track"><div class="track-name">The AI Stack</div><div class="track-desc">Infrastructure, accelerators, training, inference, data systems, evaluations, and MLOps.</div></div>
+          <div class="track"><div class="track-name">Applied AI</div><div class="track-desc">Workflow automation, edge and production deployments, evaluation, and real-world case studies.</div></div>
+          <div class="track"><div class="track-name">AI Strategy</div><div class="track-desc">Governance, capability building, ROI, operating models, and responsible adoption at scale.</div></div>
+        </div>
+      </div>
+      <div class="wc">
+        <div class="wc-tag">Speaker Expertise</div>
+        <h3>Learn From The People Building AI</h3>
+        <p>The program prioritizes <strong>practical insight from people building AI systems</strong> — not just discussing them.</p>
+        <ul class="arrow-list">
+          <li>Researchers advancing generative models and frontier systems</li>
+          <li>Engineers building large-scale AI infrastructure</li>
+          <li>Startup founders launching new AI platforms</li>
+          <li>Leaders deploying AI across industries</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO ATTENDS -->
+<section class="audience">
+  <div class="W">
+    <div class="reveal">
+      <span class="tag">Who Attends</span>
+      <h2>Built For People Building AI</h2>
+    </div>
+    <div class="aud-grid reveal" style="transition-delay:.1s">
+      <div class="aud-item">
+        <h4>AI Engineers &amp; Researchers</h4>
+        <p>Technical practitioners building and studying AI systems in production and at the frontier.</p>
+      </div>
+      <div class="aud-item">
+        <h4>Founders &amp; Startup Teams</h4>
+        <p>Early-stage builders creating AI-native products and companies.</p>
+      </div>
+      <div class="aud-item">
+        <h4>Product &amp; Design Leaders</h4>
+        <p>PMs and designers shaping the next generation of AI-powered experiences.</p>
+      </div>
+      <div class="aud-item">
+        <h4>Enterprise &amp; Strategy</h4>
+        <p>Executives and operators deploying AI across organizations at scale.</p>
+      </div>
+      <div class="aud-item">
+        <h4>Investors</h4>
+        <p>VCs and angels tracking the frontier and backing the next wave of AI companies.</p>
+      </div>
+      <div class="aud-item">
+        <h4>Students &amp; Academics</h4>
+        <p>The next generation of researchers and practitioners entering the field.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+  <div class="W">
+    <div class="reveal">
+      <span class="tag">Past Attendees</span>
+      <h2>Real Voices From Last Year's Conference</h2>
+    </div>
+    <div class="photo-pair reveal" style="align-items:stretch;margin-top:0">
+      <div style="width:100%;aspect-ratio:16/9;border-radius:4px;overflow:hidden">
+        <iframe src="https://www.youtube.com/embed/xH89dcd1ibA?si=QWYAdCIv2Db8FLXq"
+          title="Conference Highlights"
+          frameborder="0"
+          style="width:100%;height:100%;display:block;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div style="background:var(--bg);border:1px solid var(--bd);padding:36px;display:flex;flex-direction:column;justify-content:center;gap:24px">
+        <div>
+          <p style="font-size:15px;line-height:1.75;color:var(--dk);font-style:italic;margin-bottom:12px">"The AI Conference is where the people actually building AI come to compare notes. It's the most technically dense and practically useful conference I attend all year."</p>
+          <p style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#aaa;font-weight:600">— Past Attendee, AI Engineer</p>
+        </div>
+        <div>
+          <p style="font-size:15px;line-height:1.75;color:var(--dk);font-style:italic;margin-bottom:12px">"I came to learn and left with three new collaborators. The caliber of people in the room is unmatched."</p>
+          <p style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#aaa;font-weight:600">— Past Attendee, ML Researcher</p>
+        </div>
+        <div>
+          <p style="font-size:15px;line-height:1.75;color:var(--dk);font-style:italic;margin-bottom:12px">"Unlike most AI events, this one felt like it was made for people who actually write code. Worth every minute."</p>
+          <p style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#aaa;font-weight:600">— Past Attendee, Founder</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STARTUP + COMMUNITY -->
+<section class="extras">
+  <div class="W">
+    <div class="extras-grid reveal">
+      <div class="ec">
+        <div class="ec-tag">Startup Showdown</div>
+        <h3>See The Next Generation Of AI Startups</h3>
+        <p>The conference hosts the <strong>Startup Showdown</strong>, where early-stage companies present new AI products and ideas to investors and industry leaders.</p>
+        <p>Startups that participate gain <strong>visibility and feedback</strong> from a community of engineers, founders, and investors working across the AI ecosystem.</p>
+      </div>
+      <div class="ec">
+        <div class="ec-tag">Community</div>
+        <h3>A Community Of AI Builders</h3>
+        <p><strong>The AI Conference</strong> is designed as a place where <strong>people actively building AI systems</strong> can exchange ideas and collaborate.</p>
+        <p>The event has been described as a <strong>melting pot of AI innovation and code-level collaboration</strong>, bringing together engineers and researchers to explore new solutions and push the boundaries of what AI can do.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MID CTA -->
+<div class="mid-cta reveal">
+  <h3>5,500+ Builders. Researchers. Leaders.</h3>
+  <p>Two days. Five tracks. San Francisco. Enter for your chance to be there.</p>
+  <button class="btn-p" onclick="document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'})">Enter the Giveaway</button>
+</div>
+
+<!-- BOTTOM CTA -->
+<section class="cta">
+  <div class="W">
+    <div class="reveal">
+      <span class="tag">The AI Conference 2026</span>
+      <h2>Win Your Spot Among AI's Brightest Minds</h2>
+      <p class="cta-sub">One winner. Two tickets. Two days of the best AI content anywhere.</p>
+    </div>
+    <div class="cta-box reveal" style="transition-delay:.12s">
+      <div class="cta-box-t">What's Included In The Giveaway</div>
+      <ul class="feat-list">
+        <li>Two Full-Access Conference Passes</li>
+        <li>All Five Conference Tracks</li>
+        <li>Startup Showcase</li>
+        <li>Networking Events And Community Gatherings</li>
+        <li>120+ Speakers Over 2 Days</li>
+      </ul>
+      <button class="btn-p" onclick="document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'})">Enter To Win</button>
+    </div>
+  </div>
+</section>
+
+<script>
+// Reveal on scroll
+const ro = new IntersectionObserver(e => e.forEach(x => {
+  if(x.isIntersecting){x.target.classList.add('in');ro.unobserve(x.target)}
+}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+
+// Sticky bar
+new IntersectionObserver(([e]) => document.getElementById('sbar').classList.toggle('show',!e.isIntersecting),{threshold:.05}).observe(document.querySelector('.hero'));
+
+// Animated stat counters
+const cu = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(!e.isIntersecting) return;
+    const el = e.target, target = +el.dataset.target, suf = el.dataset.suffix||'';
+    let cur = 0;
+    const inc = target/78;
+    const t = setInterval(() => {
+      cur = Math.min(cur+inc, target);
+      el.textContent = (target>=1000?(cur/1000).toFixed(cur<target?.1:0)+'k':Math.round(cur))+suf;
+      if(cur>=target) clearInterval(t);
+    },14);
+    cu.unobserve(el);
+  });
+},{threshold:.6});
+document.querySelectorAll('[data-target]').forEach(el => cu.observe(el));
+
+// Countdown timer — set your deadline here
+(function(){
+  // ✦ SET YOUR GIVEAWAY END DATE HERE ✦
+  const deadline = new Date('2026-05-01T23:59:59');
+
+  function pad(n){ return String(Math.floor(n)).padStart(2,'0'); }
+
+  function tick(){
+    const now = new Date();
+    const diff = deadline - now;
+    if(diff <= 0){
+      document.getElementById('cd-days').textContent='00';
+      document.getElementById('cd-hours').textContent='00';
+      document.getElementById('cd-mins').textContent='00';
+      document.getElementById('cd-secs').textContent='00';
+      return;
+    }
+    const days  = diff / 86400000;
+    const hours = (diff % 86400000) / 3600000;
+    const mins  = (diff % 3600000)  / 60000;
+    const secs  = (diff % 60000)    / 1000;
+    document.getElementById('cd-days').textContent  = pad(days);
+    document.getElementById('cd-hours').textContent = pad(hours);
+    document.getElementById('cd-mins').textContent  = pad(mins);
+    document.getElementById('cd-secs').textContent  = pad(secs);
+  }
+  tick();
+  setInterval(tick, 1000);
+})();
+</script>
+</body>
+</html>
