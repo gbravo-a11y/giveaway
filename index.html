@@ -55,8 +55,7 @@ h4{font-weight:700}
 .cu-sep{font-family:'Bebas Neue',sans-serif;font-size:28px;color:rgba(255,255,255,.3);line-height:1;padding-bottom:12px}
 
 /* HERO */
-.hero{position:relative;background:var(--dk);min-height:100vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#1a0d2e 0%,#2d1557 40%,#1a0d2e 100%);z-index:0}
+.hero{position:relative;background:var(--dk);min-height:100vh;display:flex;flex-direction:column;justify-content:center;overflow-x:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#1a0d2e 0%,#2d1557 40%,#1a0d2e 100%);z-index:0}
 .hero-bg-overlay{position:absolute;inset:0;background:rgba(0,0,0,.55);z-index:1}
 /* swap .hero-bg for an <img class="hero-bg-img"> when you have a photo */
 .hero-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
@@ -215,6 +214,8 @@ h4{font-weight:700}
   .hero-text p{word-break:break-word}
   .hero .W{padding-left:5%;padding-right:5%}
   .hero .W{grid-template-columns:1fr;gap:32px}
+  .hero-form-card{width:100%;box-sizing:border-box}
+  .klaviyo-form-WZzpyG{max-width:100%;overflow:hidden}
   .audience .W,.cta .W,.bridge-grid{grid-template-columns:1fr}
   .photo-pair,.extras-grid{grid-template-columns:1fr}
   #form-anchor .W{grid-template-columns:1fr!important}
