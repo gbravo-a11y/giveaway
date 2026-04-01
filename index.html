@@ -55,34 +55,32 @@ h4{font-weight:700}
 .cu-sep{font-family:'Bebas Neue',sans-serif;font-size:28px;color:rgba(255,255,255,.3);line-height:1;padding-bottom:12px}
 
 /* HERO */
-.hero{background:var(--wh);padding:60px 0 0 0}
-.hero .W{display:grid;grid-template-columns:55fr 45fr;gap:0;align-items:stretch}
-.hero-text{padding-right:60px;padding-bottom:60px}
-.hero-ey{font-size:clamp(18px,2.2vw,26px);font-family:'Bebas Neue',sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:var(--pu);margin-bottom:4px;line-height:1}
-.hero h1{font-size:clamp(56px,7vw,96px);margin:0 0 16px;line-height:.95}
-.hero h1 span{color:var(--pu)}
-.hero p{color:var(--gr);line-height:1.75;font-size:15px;margin-bottom:14px}
-.hero p:last-of-type{margin-bottom:0}
-.prize-box{background:var(--bg);border:1px solid var(--bd);padding:24px 28px;margin:24px 0 28px}
-.prize-box-t{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;color:#aaa;margin-bottom:16px}
+.hero{position:relative;background:var(--dk);min-height:100vh;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#1a0d2e 0%,#2d1557 40%,#1a0d2e 100%);z-index:0}
+.hero-bg-overlay{position:absolute;inset:0;background:rgba(0,0,0,.55);z-index:1}
+/* swap .hero-bg for an <img class="hero-bg-img"> when you have a photo */
+.hero-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero .W{position:relative;z-index:2;display:grid;grid-template-columns:1fr 420px;gap:48px;align-items:center;padding-top:60px;padding-bottom:60px}
+.hero-text{color:var(--wh)}
+.hero-ey{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.6);font-weight:500;margin-bottom:12px}
+.hero h1{font-size:clamp(52px,6vw,88px);margin:0 0 20px;line-height:.95;color:var(--wh)}
+.hero h1 span{color:#b388ff}
+.hero-text p{color:rgba(255,255,255,.75);line-height:1.75;font-size:15px;margin-bottom:14px}
+.prize-box{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:24px 28px;margin:24px 0 28px;backdrop-filter:blur(8px)}
+.prize-box-t{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.4);margin-bottom:16px}
 .prize-list{list-style:none}
-.prize-list li{padding:10px 0;border-bottom:1px solid var(--bd);font-size:13px;font-weight:500;display:flex;align-items:center;gap:12px;letter-spacing:.3px}
+.prize-list li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:13px;font-weight:500;display:flex;align-items:center;gap:12px;color:rgba(255,255,255,.85)}
 .prize-list li:last-child{border-bottom:none}
-.prize-list li::before{content:'✦';color:var(--pu);font-size:11px;flex-shrink:0}
-.hero-img-wrap{position:relative;overflow:hidden}
-.hero-img{width:100%;height:100%;object-fit:cover;display:block;min-height:480px;background:#c4c3cc}
-.hero-img-ph{width:100%;height:100%;min-height:480px;background:linear-gradient(135deg,#1a0d2e 0%,#3a1f6b 50%,#1a0d2e 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
-.hero-img-ph-label{color:rgba(255,255,255,.4);font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:500}
-.hero-img-ph-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(32px,4vw,54px);color:rgba(255,255,255,.15);text-align:center;letter-spacing:2px;line-height:1.1;padding:0 20px;text-transform:uppercase}
+.prize-list li::before{content:'✦';color:#b388ff;font-size:11px;flex-shrink:0}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn-o-light{background:none;border:2px solid rgba(255,255,255,.4);color:var(--wh);padding:14px 28px;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;cursor:pointer;font-family:inherit;transition:.2s}.btn-o-light:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.7)}
 
-/* FORM SECTION */
-.form-section{background:var(--pu);padding:64px 5%}
-.form-section .W{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
-.form-left h2{font-size:clamp(38px,5vw,66px);color:var(--wh);margin:14px 0 16px}
-.form-left p{color:rgba(255,255,255,.75);font-size:14px;line-height:1.75}
-.form-box{background:var(--wh);padding:36px;border-radius:2px}
-.form-box-t{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;margin-bottom:24px;color:#aaa}
-.disclaimer{font-size:11px;color:rgba(255,255,255,.5);margin-top:20px;line-height:1.6;font-style:italic}
+/* HERO FORM CARD */
+.hero-form-card{background:var(--wh);padding:36px;box-shadow:0 24px 64px rgba(0,0,0,.4);position:relative}
+.hero-form-card-inner{padding-top:28px}
+.hero-form-title{font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;color:var(--dk)}
+.hero-form-sub{font-size:12px;color:var(--gr);line-height:1.6;margin-bottom:20px}
+.hero-form-disclaimer{font-size:10px;color:#aaa;line-height:1.5;margin-top:16px;font-style:italic}
 
 /* STATS */
 .stats{background:var(--bg);padding:40px 0}
@@ -177,6 +175,7 @@ h4{font-weight:700}
 
 /* RESPONSIVE */
 @media(max-width:1024px){
+  .hero .W{grid-template-columns:1fr 360px}
   .stats-inner{grid-template-columns:repeat(2,1fr)}
   .stat:nth-child(2){border-right:none}
   .stat:nth-child(3){border-right:1px solid var(--bd);border-top:1px solid var(--bd)}
@@ -184,12 +183,11 @@ h4{font-weight:700}
   .wyg-grid{grid-template-columns:1fr}
 }
 @media(max-width:860px){
-  .hero .W,.form-section .W,.audience .W,.cta .W,.bridge-grid{grid-template-columns:1fr}
-  .hero-img-ph{min-height:280px;order:-1}
-  .hero-text{padding-right:0}
-  .countdown-units{gap:10px}
-  .cu-n{font-size:26px}
+  .hero .W{grid-template-columns:1fr;gap:32px}
+  .hero-form-card{order:-1}
+  .audience .W,.cta .W,.bridge-grid{grid-template-columns:1fr}
   .photo-pair,.extras-grid{grid-template-columns:1fr}
+  #form-anchor .W{grid-template-columns:1fr!important}
 }
 @media(max-width:600px){
   .aud-grid{grid-template-columns:1fr}
@@ -199,7 +197,7 @@ h4{font-weight:700}
   .stat:nth-child(3),.stat:nth-child(4){border-top:1px solid var(--bd)}
   .sticky p{font-size:11px}
   .countdown-bar{gap:12px}
-  .hero-btns{flex-direction:column}.btn-p,.btn-o{text-align:center}
+  .hero-btns{flex-direction:column}.btn-p,.btn-o,.btn-o-light{text-align:center}
   .cc{padding:12px 14px;font-size:11px}
   .ch{padding:10px 14px;font-size:8px}
   .cat{font-size:7px;letter-spacing:1.5px}
@@ -232,13 +230,13 @@ h4{font-weight:700}
 
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-bg"></div>
   <div class="W">
     <div class="hero-text reveal">
       <p class="hero-ey">📍 San Francisco  |  September 29 – October 1, 2026</p>
       <h1>Win A Pair Of Tickets To <span>The AI Conference</span></h1>
       <p>5,500 builders, researchers, and leaders. Two days. Five tracks. One of the most important gatherings in AI — and we're giving away two tickets.</p>
       <p>Enter for a chance to join hundreds of engineers, founders, and AI leaders for two days of deep technical sessions and community you won't find anywhere else.</p>
-
       <div class="prize-box">
         <div class="prize-box-t">What You Win</div>
         <ul class="prize-list">
@@ -248,17 +246,14 @@ h4{font-weight:700}
           <li>120+ Speakers across 2 days</li>
         </ul>
       </div>
-
       <div class="hero-btns">
-        <button class="btn-p" onclick="document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'})">Enter the Giveaway</button>
-        <button class="btn-o" onclick="document.querySelector('.compare').scrollIntoView({behavior:'smooth'})">Why The AI Conference?</button>
+        <button class="btn-o-light" onclick="document.querySelector('.compare').scrollIntoView({behavior:'smooth'})">Why The AI Conference?</button>
       </div>
     </div>
 
-    <!-- Hero image: swap src with actual conference photo -->
-    <div class="hero-img-ph reveal" style="transition-delay:.1s">
-      <span class="hero-img-ph-label">The AI Conference 2026</span>
-      <span class="hero-img-ph-title">San Francisco<br>Sep 29 – Oct 1</span>
+    <div class="hero-form-card reveal" style="transition-delay:.15s">
+      <div class="klaviyo-form-WZzpyG"></div>
+      <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WbCUCr"></script>
     </div>
   </div>
 </section>
@@ -357,25 +352,6 @@ h4{font-weight:700}
   </div>
 </section>
 
-<!-- FORM -->
-<section class="form-section" id="form-anchor">
-  <div class="W">
-    <div class="form-left reveal">
-      <span class="tag" style="border-color:rgba(255,255,255,.3);color:rgba(255,255,255,.7)">Giveaway</span>
-      <h2>Enter To Win Two Tickets</h2>
-      <p>Submit your information below for a chance to win two full-access passes to The AI Conference 2026 in San Francisco. One winner will be selected and notified by email.</p>
-      <p style="margin-top:16px">You'll also receive occasional updates about the conference — speakers, agenda, and early-bird offers. Unsubscribe anytime.</p>
-      <p class="disclaimer">No purchase necessary. One entry per person. Winner selected at random and notified via email. Tickets are non-transferable and non-refundable. Giveaway closes when the countdown reaches zero.</p>
-    </div>
-
-    <div class="form-box reveal" style="transition-delay:.12s">
-      <div class="form-box-t">Your Entry</div>
-      <div class="klaviyo-form-WZzpyG"></div>
-      <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WbCUCr"></script>
-    </div>
-  </div>
-</section>
-
 <!-- WHAT YOU GET -->
 <section class="wyg">
   <div class="W">
@@ -419,6 +395,13 @@ h4{font-weight:700}
     </div>
   </div>
 </section>
+
+<!-- MID CTA BANNER -->
+<div class="mid-cta reveal">
+  <h3>5,500+ Builders. Researchers. Leaders.</h3>
+  <p>Two days. Five tracks. San Francisco. Enter for your chance to be there.</p>
+  <button class="btn-p" style="background:#fff;color:var(--pu);border:none;" onclick="document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'})">Enter The Giveaway</button>
+</div>
 
 <!-- WHO ATTENDS -->
 <section class="audience">
@@ -510,12 +493,20 @@ h4{font-weight:700}
   </div>
 </section>
 
-<!-- MID CTA -->
-<div class="mid-cta reveal">
-  <h3>5,500+ Builders. Researchers. Leaders.</h3>
-  <p>Two days. Five tracks. San Francisco. Enter for your chance to be there.</p>
-  <button class="btn-p" onclick="document.getElementById('form-anchor').scrollIntoView({behavior:'smooth'})">Enter the Giveaway</button>
-</div>
+<!-- FORM SECTION -->
+<section style="background:var(--pu);padding:64px 5%" id="form-anchor">
+  <div class="W" style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center">
+    <div class="reveal">
+      <span class="tag" style="border-color:rgba(255,255,255,.3);color:rgba(255,255,255,.7)">Giveaway</span>
+      <h2 style="font-size:clamp(38px,5vw,66px);color:var(--wh);margin:14px 0 16px">Enter To Win Two Tickets</h2>
+      <p style="color:rgba(255,255,255,.75);font-size:14px;line-height:1.75">Submit your information for a chance to win two full-access passes to The AI Conference 2026 in San Francisco. One winner will be selected and notified by email.</p>
+      <p style="color:rgba(255,255,255,.5);font-size:11px;margin-top:20px;line-height:1.6;font-style:italic">No purchase necessary. One entry per person. Winner selected at random. Tickets are non-transferable. Giveaway closes when countdown reaches zero.</p>
+    </div>
+    <div class="reveal" style="transition-delay:.12s">
+      <div class="klaviyo-form-WZzpyG"></div>
+    </div>
+  </div>
+</section>
 
 <!-- BOTTOM CTA -->
 <section class="cta">
