@@ -7570,11 +7570,7 @@ document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 // Sticky bar
 new IntersectionObserver(([e]) => document.getElementById('sbar').classList.toggle('show',!e.isIntersecting),{threshold:.05}).observe(document.querySelector('.hero'));
 
-const ro=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');ro.unobserve(x.target)}}),{threshold:.1});
-document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
-new IntersectionObserver(([e])=>document.getElementById('sbar').classList.toggle('show',!e.isIntersecting),{threshold:.05}).observe(document.querySelector('.hero'));
-const cu=new IntersectionObserver(entries=>{entries.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,target=+el.dataset.target,suf=el.dataset.suffix||'';let cur=0;const inc=target/78;const t=setInterval(()=>{cur=Math.min(cur+inc,target);el.textContent=(target>=1000?(cur/1000).toFixed(cur<target?.1:0)+'k':Math.round(cur))+suf;if(cur>=target)clearInterval(t)},14);cu.unobserve(el)})},{threshold:.6});
-document.querySelectorAll('[data-target]').forEach(el=>cu.observe(el));
+
 // Testimonial carousel
 let tmIdx=0;
 const tmImgs=document.querySelectorAll('.tm-slides img');
