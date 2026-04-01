@@ -195,6 +195,11 @@ h4{font-weight:700}
 .mid-cta{padding:32px 5%}
 .stats{padding:32px 0}
 
+.compare,.bridge,.learning,.extras,.audience,.testimonial,.bottom cta,.mid cta{padding:40px 5%}
+.hero{padding:32px 0 0 0}
+.mid-cta{padding:32px 5%;text-align:center}
+.compare h2,.bridge h2,.learning h2,.audience h2{margin-bottom:24px}
+
 /* RESPONSIVE */
 @media(max-width:1024px){
   .hero .W{grid-template-columns:1fr 460px}
@@ -203,11 +208,13 @@ h4{font-weight:700}
   .stat:nth-child(3){border-right:1px solid var(--bd);border-top:1px solid var(--bd)}
   .stat:nth-child(4){border-top:1px solid var(--bd);border-right:none}
   .wyg-grid{grid-template-columns:1fr}
-  .learn-grid{grid-template-columns:1fr}
 }
 @media(max-width:860px){
+  .hero-text p{word-break:break-word}
+  .hero .W{padding-left:5%;padding-right:5%}
   .hero .W{grid-template-columns:1fr;gap:32px}
-  .hero-form-card{width:100%;box-sizing:border-box;padding:24px}
+  .hero-form-card{width:100%;box-sizing:border-box}
+  .klaviyo-form-WZzpyG{max-width:100%;overflow:hidden}
   .audience .W,.cta .W,.bridge-grid{grid-template-columns:1fr}
   .photo-pair,.extras-grid{grid-template-columns:1fr}
   #form-anchor .W{grid-template-columns:1fr!important}
@@ -225,6 +232,8 @@ h4{font-weight:700}
   .ch{padding:10px 14px;font-size:8px}
   .cat{font-size:7px;letter-spacing:1.5px}
   .wyg-grid{grid-template-columns:1fr}
+  .W{padding:0 6%}
+  .hero .W{padding-left:6%;padding-right:6%;width:100%}
 }
 </style>
 </head>
