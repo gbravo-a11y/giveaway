@@ -126,7 +126,7 @@ h4{font-weight:700}
 .vid-ph:hover .vid-play{background:rgba(107,63,160,.8);border-color:var(--pu);transform:scale(1.1)}
 .vid-label{position:relative;z-index:1;color:rgba(255,255,255,.4);font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:500}
 .tm-carousel{flex:1;display:flex;flex-direction:column;min-width:0}
-.tm-slides{overflow:hidden;border-radius:8px;height:100%;position:relative}
+.tm-slides{overflow:hidden;border-radius:8px;aspect-ratio:1;position:relative}
 .tm-slides img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .4s ease}.tm-slides img.active{opacity:1}
 .tm-dots{display:flex;gap:8px;justify-content:center;margin-top:16px}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--bd);border:none;cursor:pointer;padding:0}.dot.on{background:var(--pu)}
@@ -7569,7 +7569,6 @@ document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
 // Sticky bar
 new IntersectionObserver(([e]) => document.getElementById('sbar').classList.toggle('show',!e.isIntersecting),{threshold:.05}).observe(document.querySelector('.hero'));
-
 
 // Testimonial carousel
 let tmIdx=0;
