@@ -46,23 +46,19 @@ h4{font-weight:700}
 .btn-sw{background:var(--pu);color:var(--wh);border:2px solid var(--pu);padding:10px 22px;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;cursor:pointer;font-family:inherit;white-space:nowrap;flex-shrink:0;transition:.2s}.btn-sw:hover{opacity:.82}
 
 /* HERO */
-.hero{position:relative;background:var(--dk);min-height:100vh;display:flex;flex-direction:column;justify-content:center;overflow-x:hidden}.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#1a0d2e 0%,#2d1557 40%,#1a0d2e 100%);z-index:0}
-.hero-bg-overlay{position:absolute;inset:0;background:rgba(0,0,0,.55);z-index:1}
-/* swap .hero-bg for an <img class="hero-bg-img"> when you have a photo */
-.hero-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
-.hero .W{position:relative;z-index:2;display:grid;grid-template-columns:1fr minmax(0,500px);gap:48px;align-items:start;padding-top:60px;padding-bottom:60px;min-width:0}.hero-text{color:var(--wh);min-width:0}
-.hero-ey{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.6);font-weight:500;margin-bottom:12px}
-.hero h1{font-size:clamp(52px,6vw,88px);margin:0 0 20px;line-height:.95;color:var(--wh)}
-.hero h1 span{color:#b388ff}
-.hero-text p{color:rgba(255,255,255,.75);line-height:1.75;font-size:15px;margin-bottom:14px}
-.prize-box{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:24px 28px;margin:24px 0 28px;backdrop-filter:blur(8px)}
-.prize-box-t{font-size:8.5px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.4);margin-bottom:16px}
-.prize-list{list-style:none}
-.prize-list li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:13px;font-weight:500;display:flex;align-items:center;gap:12px;color:rgba(255,255,255,.85)}
-.prize-list li:last-child{border-bottom:none}
-.prize-list li::before{content:'✦';color:#b388ff;font-size:11px;flex-shrink:0}
-.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
-.btn-o-light{background:none;border:2px solid rgba(255,255,255,.4);color:var(--wh);padding:14px 28px;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;cursor:pointer;font-family:inherit;transition:.2s}.btn-o-light:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.7)}
+.hero{background:var(--wh);padding:60px 0 0 0}
+.hero .W{max-width:1280px;margin:0 auto;padding:0 5%;display:grid;grid-template-columns:55fr 45fr;gap:0;align-items:stretch}
+.hero-text{padding-right:60px}
+.hero-ey{font-size:clamp(28px,3.5vw,42px);font-family:'Bebas Neue',sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:var(--pu);margin-bottom:4px;line-height:1}
+.hero h1{font-size:clamp(62px,7vw,100px);margin:0 0 16px;line-height:.95}
+.hero p{color:var(--gr);line-height:1.75;font-size:15px;margin-bottom:14px}.hero p:last-of-type{margin-bottom:0}
+.hero-intro{font-size:15.5px;margin-bottom:12px}
+.hero-btns{display:flex;gap:14px;margin-top:24px;flex-wrap:wrap}
+.hero-btns{display:flex;gap:14px;margin-top:24px;flex-wrap:wrap}
+.urgency{font-size:12px;font-weight:700;color:var(--pu);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px;}
+.refund-note{font-size:12px;color:var(--gr);margin-top:12px;line-height:1.5;}
+.hero-img{width:100%;height:100%;object-fit:cover;display:block}
+.hero .reveal{padding:0 5% 40px 0}
 
 /* HERO FORM CARD */
 .hero-form-card{background:transparent;border-radius:16px;padding:36px;position:relative;overflow:hidden;margin-top:80px}
@@ -232,9 +228,23 @@ h4{font-weight:700}
 </div>
 
 <!-- HERO -->
+<!-- HERO -->
 <section class="hero">
-  </div>
-    <img class="hero-bg-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
+  <div class="W">
+    <div class="reveal">
+      <p class="hero-ey">Why Attend The AI Conference?</p>
+      <h1>Built For People Building AI</h1>
+      <p class="hero-intro">AI conferences are everywhere today. Some focus primarily on enterprise networking. Others narrow in on a single topic such as AI agents or industry use cases.</p>
+      <p>Researchers, engineers, founders, product leaders, and executives come together to explore how AI systems are <strong>designed, deployed, and scaled in the real world</strong>. The program combines deep technical discussions with practical implementation and strategic perspective across the AI ecosystem.</p>
+      <p>If you are deciding where to invest your time and conference budget this year, <strong>here is how The AI Conference stands out.</strong></p>
+      <p class="urgency">GET $2,025 OFF — SUPER EARLY BIRD ENDS SOON</p>
+      <div class="hero-btns">
+        <button class="btn-p" onclick="document.getElementById('ticket-modal').style.display='block'">Secure Your Pass</button>
+        <button class="btn-o" onclick="document.querySelector('.compare').scrollIntoView({behavior:'smooth'})">Compare Events</button>
+      <p class="refund-note">🔒 Register with confidence. Cancel up to 30 days out for a full refund, minus a 5% processing fee.</p>
+      </div>
+    </div>
+    <img class="hero-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdC
 IFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAA
 AADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlk
 ZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAA
@@ -7252,27 +7262,7 @@ B/KB/embO6NwsSkj4zGeMUKFJD9jd0ta1QkhHxbQQO5P9qiWyj95QeSByeeaFCkL2SXlEOIdlQWU
 B07llRE7YJ70KFCGKfQkJS6BA2p+HnmcTTlg024qVJkhJWZ6wBihQpkWWSGwlgwE/CqDjnn6fhqM
 p5WxKUymVAYPrQoUMI9lZqDq/PDe4gHiDgZqIl8l0NhCRvMTFChVZNdkpEIaOMJ7Y/fFFcEtwUxm
 SPShQpoGPskBtswMmT6nH96ksXC03KdoH4sGMihQqT6IxfJ3DwncLf0loLyofDPtVukkwJNChXMf
-Z10+AKJkTnJFIUDtkHrQoUBnkbP4AoYxNLs3Cl5ChyTQoUMkdS8GXLi2UpPEVN8TNIVYrkcChQqUexYyYtJ4PPvTiztTIoUKsfZWYD7VvEV3pOkuKtkjcUkzNeZ9Quri9ul3Ny4XHFkST+lChUolPYxtgQD1pRVtMACe9ChUyr2GVEn+nSkr+IdvahQoYIQrBVzim1LOevShQqLLUH/KDRJzn1oUKSASvEntRtkTxQoUvZL0OJMq4ArdaHatosEITgzJI60KFaKjLd2kNeILz7q0m3ZQoHgrK8kGfT0rKOqUVncoqjv70KFEyEDR3Drnk27cp2i2T06QT/WqC0X/ABCTMJ6TQoVGPZY0tpdrOy28syolG6Z98Grr7P8AVH7W4U2hKC26ShaFZBGO9ChVnsrN39ys9XtbjS7+1auGJKmg6kK8sgYj2BjoY61xLx94fs9GVp13ZKWlnUWluhlWfJ2rKCArkgkTniYzyRQqi9JxyaNLJqSXozCRRnihQrGjoCkAbZikkT9KFCmBffZ7fPaf4usLhg/F5oSR3Br1xaKKkIUeVAfpQoU0RkSimcVGuOp6ihQqRBkdaZn0rO+OdTd0nQXri3SCsJMEnihQpwWWRkcGvrh64uFXLi5ccyomqy5eLjIRlOZwaFCtnozxElKVFvGFGM0+4kNwE/hCRjvihQqUUsFbbZFWn+IlHQ1bJZSi1Qud0jrQoVGPZa+jO6u6ovbe1VijJoUKw2v6jZWvpAlSknBIp9u8uG4CXVR70KFVYLE2ui40rUHniG3MxwZqyDqwqJJJ6n5UKFUTXJsqk3EW24okDinkvuDIVzmhQqmaRoi2SLe5WTs9Y5qazcrSeBxFChVTijTCTJrT6ksb45zHzj+tBLhWgqiNufehQqnBoiw1XC29w524z86lhRQ2V8weDQoVFkwwqSFxTjqyG5jrQoVEaAgklKe5j86dQspJ5JHf5UKFRZKIFE5MkdMUGXFKTEnvQoUn0WIMuEJB6GTE/vtToJLU+n96FChAJCyABJ96VwknpExQoUxoEkAzmAaOZcge2fnQoULoixbYn60AshRSOlChR6EEFDylHbgHI70AQGZAIExE96FCosmBZ+MpjOc0hJ2qJ68TQoUCJAALkdSMmhG5wjonFChUkRY6IBGOsfpRm1bfb+MAgCeKFCpIgym1XwtpN2klxgTHMZrCa54TtrZPmMXKwP8AapM/1oUK10zlnGTDqaa8ZwZa4twz/Nu+VRz70KFbYvJyLIpPgAE0AMc0KFSK2AUD2oUKABM4o6FCgAURJBFChTIn/9k=" alt="AI Conference attendees" style="object-position: center 30%">
-  <div class="hero-bg-overlay"></div>
-  <div class="W">
-    <div class="hero-text reveal">
-     <p class="hero-ey">Why Attend The AI Conference?</p>
-      <h1>Built For People Building AI</h1>
-      <p class="hero-intro">AI conferences are everywhere today. Some focus primarily on enterprise networking. Others narrow in on a single topic such as AI agents or industry use cases.</p>
-      <p>Researchers, engineers, founders, product leaders, and executives come together to explore how AI systems are <strong>designed, deployed, and scaled in the real world</strong>. The program combines deep technical discussions with practical implementation and strategic perspective across the AI ecosystem.</p>
-      <p>If you are deciding where to invest your time and conference budget this year, <strong>here is how The AI Conference stands out.</strong></p>
-      <p class="urgency">GET $2,025 OFF — SUPER EARLY BIRD ENDS SOON</p>
-      <div class="hero-btns">
-        <button class="btn-p" onclick="document.getElementById('ticket-modal').style.display='block'">Secure Your Pass</button>
-        <button class="btn-o" onclick="document.querySelector('.compare').scrollIntoView({behavior:'smooth'})">Compare Events</button>
-      <p class="refund-note">🔒 Register with confidence. Cancel up to 30 days out for a full refund, minus a 5% processing fee.</p>
-      </div>
-    </div>
-      <div class="hero-btns">
-        <button class="btn-o-light" onclick="document.querySelector('.compare').scrollIntoView({behavior:'smooth'})">Why The AI Conference?</button>
-      </div>
-    </div>
-
+Z10+AKJkTnJFIUDtkHrQoUBnkbP4AoYxNLs3Cl5ChyTQoUMkdS8GXLi2UpPEVN8TNIVYrkcChQqUexYyYtJ4PPvTiztTIoUKsfZWYD7VvEV3pOkuKtkjcUkzNeZ9Quri9ul3Ny4XHFkST+lChUolPYxtgQD1pRVtMACe9ChUyr2GVEn+nSkr+IdvahQoYIQrBVzim1LOevShQqLLUH/KDRJzn1oUKSASvEntRtkTxQoUvZL0OJMq4ArdaHatosEITgzJI60KFaKjLd2kNeILz7q0m3ZQoHgrK8kGfT0rKOqUVncoqjv70KFEyEDR3Drnk27cp2i2T06QT/WqC0X/ABCTMJ6TQoVGPZY0tpdrOy28syolG6Z98Grr7P8AVH7W4U2hKC26ShaFZBGO9ChVnsrN39ys9XtbjS7+1auGJKmg6kK8sgYj2BjoY61xLx94fs9GVp13ZKWlnUWluhlWfJ2rKCArkgkTniYzyRQqi9JxyaNLJqSXozCRRnihQrGjoCkAbZikkT9KFCmBffZ7fPaf4usLhg/F5oSR3Br1xaKKkIUeVAfpQoU0RkSimcVGuOp6ihQqRBkdaZn0rO+OdTd0nQXri3SCsJMEnihQpwWWRkcGvrh64uFXLi5ccyomqy5eLjIRlOZwaFCtnozxElKVFvGFGM0+4kNwE/hCRjvihQqUUsFbbZFWn+IlHQ1bJZSi1Qud0jrQoVGPZa+jO6u6ovbe1VijJoUKw2v6jZWvpAlSknBIp9u8uG4CXVR70KFVYLE2ui40rUHniG3MxwZqyDqwqJJJ6n5UKFUTXJsqk3EW24okDinkvuDIVzmhQqmaRoi2SLe5WTs9Y5qazcrSeBxFChVTijTCTJrT6ksb45zHzj+tBLhWgqiNufehQqnBoiw1XC29w524z86lhRQ2V8weDQoVFkwwqSFxTjqyG5jrQoVEaAgklKe5j86dQspJ5JHf5UKFRZKIFE5MkdMUGXFKTEnvQoUn0WIMuEJB6GTE/vtToJLU+n96FChAJCyABJ96VwknpExQoUxoEkAzmAaOZcge2fnQoULoixbYn60AshRSOlChR6EEFDylHbgHI70AQGZAIExE96FCosmBZ+MpjOc0hJ2qJ68TQoUCJAALkdSMmhG5wjonFChUkRY6IBGOsfpRm1bfb+MAgCeKFCpIgym1XwtpN2klxgTHMZrCa54TtrZPmMXKwP8AapM/1oUK10zlnGTDqaa8ZwZa4twz/Nu+VRz70KFbYvJyLIpPgAE0AMc0KFSK2AUD2oUKABM4o6FCgAURJBFChTIn/9k=" alt="AI Conference attendees" style="object-fit:cover">
   </div>
 </section>
 
